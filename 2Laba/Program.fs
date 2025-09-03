@@ -1,25 +1,16 @@
 ﻿open System
 open System.IO
+open System.Text.RegularExpressions
 
-let countVowels (path:string) =
-    let text = File.ReadAllText(path).ToUpper()
+let mostCommonWord (path:string) =
+    File.ReadAllText(path).ToLower()
+    |> fun text -> Regex.Split(text, @"\W+")  
+    |> Seq.filter (fun w -> w <> "")          
+    |> Seq.countBy id                         
+    |> Seq.maxBy snd                          
+    |> fst 
 
-    // Множество гласных букв русского алфавита
-    let vowels = set ['A'; 'E'; 'Y'; 'U'; 'I'; 'O'; ]
-
-    // Считаем количество каждой гласной
-    let vowelCounts =
-        text
-        |> Seq.filter (fun c -> vowels.Contains c)
-        |> Seq.countBy id
-        |> Map.ofSeq
-
-    vowelCounts
-
-// Пример вызова:
-let path = @"C:\Users\bingo\source\repos\FunctionalProgramming\2Laba\History for ready reference, Volume 1, A-Elba by J. N. Larned.txt"
-let res = countVowels path
-
-// Вывод результатов
-res |> Map.iter (fun vowel count -> printfn "%c: %d" vowel count)
+let path = @".\History for ready reference, Volume 1, A-Elba by J. N. Larned.txt"
+let result = mostCommonWord path
+printfn "Самое часто встречающееся слово: %s" result
 
