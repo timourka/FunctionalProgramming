@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2LabaC++", "2LabaC++\2LabaC
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "3Laba", "3Laba\3Laba.fsproj", "{EDB0D8D1-7807-449D-A6E3-C72B3CA91DFF}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "4Laba", "4Laba\4Laba.fsproj", "{7536B85C-8E8C-482F-B75C-50543D2F91CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +71,18 @@ Global
 		{EDB0D8D1-7807-449D-A6E3-C72B3CA91DFF}.Release|x64.Build.0 = Release|Any CPU
 		{EDB0D8D1-7807-449D-A6E3-C72B3CA91DFF}.Release|x86.ActiveCfg = Release|Any CPU
 		{EDB0D8D1-7807-449D-A6E3-C72B3CA91DFF}.Release|x86.Build.0 = Release|Any CPU
+		{7536B85C-8E8C-482F-B75C-50543D2F91CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7536B85C-8E8C-482F-B75C-50543D2F91CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7536B85C-8E8C-482F-B75C-50543D2F91CF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7536B85C-8E8C-482F-B75C-50543D2F91CF}.Debug|x64.Build.0 = Debug|Any CPU
+		{7536B85C-8E8C-482F-B75C-50543D2F91CF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7536B85C-8E8C-482F-B75C-50543D2F91CF}.Debug|x86.Build.0 = Debug|Any CPU
+		{7536B85C-8E8C-482F-B75C-50543D2F91CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7536B85C-8E8C-482F-B75C-50543D2F91CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7536B85C-8E8C-482F-B75C-50543D2F91CF}.Release|x64.ActiveCfg = Release|Any CPU
+		{7536B85C-8E8C-482F-B75C-50543D2F91CF}.Release|x64.Build.0 = Release|Any CPU
+		{7536B85C-8E8C-482F-B75C-50543D2F91CF}.Release|x86.ActiveCfg = Release|Any CPU
+		{7536B85C-8E8C-482F-B75C-50543D2F91CF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
