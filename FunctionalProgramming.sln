@@ -9,6 +9,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "2Laba", "2Laba\2Laba.fsproj
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2LabaC++", "2LabaC++\2LabaC++.vcxproj", "{420EB974-2550-40FD-A09E-3A6B2CF47FEF}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "3Laba", "3Laba\3Laba.fsproj", "{EDB0D8D1-7807-449D-A6E3-C72B3CA91DFF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +57,18 @@ Global
 		{420EB974-2550-40FD-A09E-3A6B2CF47FEF}.Release|x64.Build.0 = Release|x64
 		{420EB974-2550-40FD-A09E-3A6B2CF47FEF}.Release|x86.ActiveCfg = Release|Win32
 		{420EB974-2550-40FD-A09E-3A6B2CF47FEF}.Release|x86.Build.0 = Release|Win32
+		{EDB0D8D1-7807-449D-A6E3-C72B3CA91DFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB0D8D1-7807-449D-A6E3-C72B3CA91DFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB0D8D1-7807-449D-A6E3-C72B3CA91DFF}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{EDB0D8D1-7807-449D-A6E3-C72B3CA91DFF}.Debug|x64.Build.0 = Debug|Any CPU
+		{EDB0D8D1-7807-449D-A6E3-C72B3CA91DFF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{EDB0D8D1-7807-449D-A6E3-C72B3CA91DFF}.Debug|x86.Build.0 = Debug|Any CPU
+		{EDB0D8D1-7807-449D-A6E3-C72B3CA91DFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB0D8D1-7807-449D-A6E3-C72B3CA91DFF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDB0D8D1-7807-449D-A6E3-C72B3CA91DFF}.Release|x64.ActiveCfg = Release|Any CPU
+		{EDB0D8D1-7807-449D-A6E3-C72B3CA91DFF}.Release|x64.Build.0 = Release|Any CPU
+		{EDB0D8D1-7807-449D-A6E3-C72B3CA91DFF}.Release|x86.ActiveCfg = Release|Any CPU
+		{EDB0D8D1-7807-449D-A6E3-C72B3CA91DFF}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
