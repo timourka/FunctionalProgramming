@@ -7,7 +7,24 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Content Include="texts\1History for ready reference, Volume 1, A-Elba by J - Копировать. N. Larned.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="texts\2History for ready reference, Volume 1, A-Elba by J - Копировать. N. Larned.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="texts\3History for ready reference, Volume 1, A-Elba by J - Копировать. N. Larned.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="texts\4History for ready reference, Volume 1, A-Elba by J - Копировать. N. Larned.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="texts\5History for ready reference, Volume 1, A-Elba by J - Копировать. N. Larned.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Compile Include="Program.fs" />
   </ItemGroup>
+
+  <ItemGroup />
 
 </Project>
