@@ -81,17 +81,6 @@ type TaxService(state: State) =
         else
             printfn "✅ У гражданина %s нет налоговой задолженности" citizen.Name
 
-type MedicalService(state: State) =
-    inherit GovService(state, "Запись к в")
-    override this.PerformService(citizen: Citizen) =
-        if not citizen.IsRegisteredToDoctor then
-            citizen.IsRegisteredToDoctor <- true
-            printfn "🏥 Гражданин %s записан на приём к врачу" citizen.Name
-        else
-            printfn "📅 Гражданин %s уже был записан к врачу" citizen.Name
-
-
-
 //-------------------------main------------------------------
 let state = State("ФШарпания", "Шарпель")
 let citizen = Citizen("Иван Иваныч", 45, state)
@@ -103,8 +92,7 @@ printfn "--------------------------------"
 // Создаём список сервисов
 let services: IGovService list =
     [ PassportService(state) :> IGovService;
-    TaxService(state) :> IGovService;
-    MedicalService(state) :> IGovService ]
+    TaxService(state) :> IGovService]
 
 // Житель пользуется всеми услугами
 for s in services do
