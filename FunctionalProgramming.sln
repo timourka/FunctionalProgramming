@@ -13,6 +13,8 @@ Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "3Laba", "3Laba\3Laba.fsproj
 EndProject
 Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "4Laba", "4Laba\4Laba.fsproj", "{7536B85C-8E8C-482F-B75C-50543D2F91CF}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "5Laba", "5Laba\5Laba.fsproj", "{0F1FF2C1-CDF4-47EE-8957-850C04D8CC3D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -83,6 +85,18 @@ Global
 		{7536B85C-8E8C-482F-B75C-50543D2F91CF}.Release|x64.Build.0 = Release|Any CPU
 		{7536B85C-8E8C-482F-B75C-50543D2F91CF}.Release|x86.ActiveCfg = Release|Any CPU
 		{7536B85C-8E8C-482F-B75C-50543D2F91CF}.Release|x86.Build.0 = Release|Any CPU
+		{0F1FF2C1-CDF4-47EE-8957-850C04D8CC3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F1FF2C1-CDF4-47EE-8957-850C04D8CC3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F1FF2C1-CDF4-47EE-8957-850C04D8CC3D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0F1FF2C1-CDF4-47EE-8957-850C04D8CC3D}.Debug|x64.Build.0 = Debug|Any CPU
+		{0F1FF2C1-CDF4-47EE-8957-850C04D8CC3D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{0F1FF2C1-CDF4-47EE-8957-850C04D8CC3D}.Debug|x86.Build.0 = Debug|Any CPU
+		{0F1FF2C1-CDF4-47EE-8957-850C04D8CC3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F1FF2C1-CDF4-47EE-8957-850C04D8CC3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0F1FF2C1-CDF4-47EE-8957-850C04D8CC3D}.Release|x64.ActiveCfg = Release|Any CPU
+		{0F1FF2C1-CDF4-47EE-8957-850C04D8CC3D}.Release|x64.Build.0 = Release|Any CPU
+		{0F1FF2C1-CDF4-47EE-8957-850C04D8CC3D}.Release|x86.ActiveCfg = Release|Any CPU
+		{0F1FF2C1-CDF4-47EE-8957-850C04D8CC3D}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
